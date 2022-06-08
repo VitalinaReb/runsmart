@@ -50,6 +50,13 @@
     &__icon
         width: 108px
         text-align: center
+        &__animated
+            animation: clockbeat 2s infinite
+            // animation-name: clockbeat
+            // animation-duration: 2s
+            // animation-iteration-count: infinite
+            &:hover
+                animation-play-state: paused
     &__text
         margin-top: 10px
         font-weight: 500
